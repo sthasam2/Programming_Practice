@@ -1,0 +1,16 @@
+{
+  "name": "js_practice",
+  "version": "1.0.0",
+  "description": "Basic Javascript Practice",
+  "main": "src/jsES6.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "node jsES6",
+    "dev": "nodemon jsES6"
+  },
+  "author": "Sambeg",
+  "license": "MIT"
+}

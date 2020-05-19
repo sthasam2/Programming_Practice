@@ -1,4 +1,8 @@
-console.log("Hello World! JS Practice");
+console.log(
+    "--------------------------\n" +
+        " Hello World! JS Practice\n" +
+        "--------------------------"
+);
 
 // alert("You have a new message");
 // // Note: Only works on browser windows
@@ -164,5 +168,87 @@ console.log("Hello World! JS Practice");
 /**
  * CHANGING CASE .toLowerCase(), .toUpperCase()
  */
-// var hello = cities[1].toLowerCase(); //arrays cannot be sunjected to this method
+// var hello = "cities c c";
+// hello = hello.toUpperCase(); //arrays cannot be sunjected to this method
 // console.log(hello);
+
+/**
+ * SPLICE--------------------------------------------------------------------------------------
+ * Returns a section of a string.
+ * start — The index to the beginning of the specified portion of stringObj.
+ * end — The index to the end of the specified portion of stringObj. The substring includes the characters up to, but not including, the character indicated by end. If this value is not specified, the substring continues to the end of stringObj.
+ */
+// let ext = hello.slice(0, 4);
+// console.log(ext);
+// let search = [2,];
+
+// if (hello.indexOf("C")) {
+//     search.push(hello.lastIndexOf("C"));
+// }
+// console.log(search);
+
+// // REPLACING THE TEXT
+// let text = "A mundane day in the life of a mediocre existence";
+// let newText = text.replace("a mediocre", "an awesome"); // "" for first instance of string not global
+// console.log(newText);
+
+/**
+ * ROUNDING NUMBERS-------------------------------------------------------------------------
+ * */
+// let numb = Math.round(1.5);
+// console.log(numb);
+// console.log(Math.ceil(0.00943));
+// console.log(Math.floor(0.923423));
+
+/**
+ * RANDOM NUMBER-----------------------------------------------------------------------------------------
+ */
+// let bigDecimal = Math.random();
+// console.group(bigDecimal);
+// let imporvedNumber = bigDecimal * 6 + 1;
+// console.log(Math.round(imporvedNumber));
+
+/**
+ * STRING TO NUMBERS AND DECIMALS---------------------------------------------------------------------------
+ */
+// console.log("200" - "100"); // converts string to numbers because of math operator
+// console.log("200" - 100); // converts string to numbers because of math operator
+// //however,
+// console.log("200" + 150); //converts 200 into string then concatenates
+
+// var myInt = parseInt("2342323");
+// console.log(typeof myInt + "   " + myInt);
+
+// var myInt = "2342323" ;
+// console.log(typeof myInt + "   " + myInt);
+
+/**
+ * STRING TO NUM AND VV
+ */
+// var myInt = "234364.321321431432432";
+// var num = Number(myInt);
+// console.log(typeof num);
+
+// var string = toString(num);
+// console.log(typeof string);
+
+/**
+ * CONTROLLING DECIMAL LENGTH------------------------------------------------------------
+ */
+// var myInt = Number("234364.321321431432432");
+// var reduced = myInt.toFixed(2); //NOTE: the method must have prototype NUMBER
+// console.log("Original : " + myInt + "\nReduced : " + reduced);
+
+/**
+ * DATE---------------------------------------------------
+ */
+// var currentDate = new Date();
+// console.log(typeof currentDate);
+
+// var stringDate = currentDate.toString();
+// console.log(currentDate);
+
+// console.log(currentDate.getHours().toString());
+// var dayName = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"];
+// console.log(dayName[currentDate.getDay()]);
+
