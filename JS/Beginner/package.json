@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "node jsES6",
-    "dev": "nodemon jsES6"
+    "es6": "nodemon jsES6",
+    "practice": "nodemon src/jsPractice.js"
   },
   "author": "Sambeg",
   "license": "MIT"

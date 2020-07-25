@@ -10,7 +10,8 @@ console.log(
 );
 
 console.log("Practice");
-// # Variable Decleration---------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------
+// Variable Decleration
 
 /**
  * OLD JS
@@ -26,22 +27,24 @@ console.log("Practice");
 // printName();
 
 // function printCount() {
-//     console.log(counter);
-//     counter += 1;
-// }
+    //     console.log(counter);
+    //     counter += 1;
+    // }
 // printCount();
 // printCount();
 
 // console.log(name); //scope is local, so non error
 
-/**
+/** 
  * ES6
  */
-let counter = 6;
-counter = 7;
-console.log(counter);
+// let counter = 6;
+// counter = 7;
+// console.log(counter);
 
-const creature = ["Cat", "Dog"];
-console.log(creature);
+// const creature = ["Cat", "Dog"];
+// console.log(creature);
 
-console.log(`${creature[0]} and ${creature[1]}`);
+// console.log(`${creature[0]} and ${creature[1]}`);
+
+// --------------------------------------------------------------------------------------------------------------------------

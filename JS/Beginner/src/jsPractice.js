@@ -252,3 +252,36 @@ console.log(
 // var dayName = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"];
 // console.log(dayName[currentDate.getDay()]);
 
+// --------------------------------------------------------------------------------------------------------------
+
+/**
+ * C33 SPECIFYING DATE AND TIME
+ */
+
+// let dob = new Date("March 14, 2000");
+// let today = new Date();
+
+// let msToday = today.getTime();
+// let msDob = dob.getTime();
+
+// let timeDiff = msToday - msDob;
+// timeDiff = timeDiff / (1000 * 60 * 60 * 24 * 365); // Gives age
+// console.log(timeDiff);
+
+// timeDiff = Math.floor(timeDiff);
+// console.log(timeDiff); //Gives rounded age
+
+// console.log(dob.getFullYear());
+
+// // Concise form
+// let age = Math.floor(
+//     (new Date() - new Date("March 14, 2000 03:15:00")) /
+//         (1000 * 3600 * 24 * 365)
+// );
+// console.log(age);
+
+// --------------------------------------------------------------------------------------------------
+
+/**
+ * C34 CHANGING ELEMENTS OF DATE AND TIME (SET)
+ */
